@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+  <!-- Title -->
+  <title>
+    {% block title %}Sistema de Gerenciamento de Funcionários{% endblock %}
+  </title>
+  
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="{% static 'website/img/favicon.png' %}" type="image/png">
+
+  <!-- Arquivos CSS -->
+  <link href="assets/css/bootstrap.css" rel="stylesheet">
+  <link href="assets/css/all.css" rel="stylesheet">
+  <link href="assets/css/styles.css" rel="stylesheet">
+  <!-- Bloco de Estilos -->
+  
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Cadastrar Funcionário</h5>
+            <p class="card-text">
+              Cadastre aqui um novo <code>Funcionário</code>.
+            </p>
+            <a href="{% url 'website:cadastra_funcionario' %}" class="btn btn-primary">
+              Novo Funcionário
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Lista de Funcionários</h5>
+            <p class="card-text">
+              Veja aqui a lista de <code>Pacientes</code> cadastrados.
+            </p>
+            <a href="http://127.0.0.1:5500/website/templates/website/pacientes.html" class="btn btn-primary">
+              Vá para Lista
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
