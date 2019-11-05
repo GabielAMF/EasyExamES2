@@ -7,7 +7,7 @@ import django.db.models.manager
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('helloworld', '0001_initial'),
+        ('easyexam', '0001_initial'),
     ]
 
     operations = [

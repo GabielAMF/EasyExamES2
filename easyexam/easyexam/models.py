@@ -133,7 +133,7 @@ class Exame(models.Model):
     )
 
     status = models.CharField(
-        max_length=255,
+        max_length=254,
         null=False,
         blank=False
     )

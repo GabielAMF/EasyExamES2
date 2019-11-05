@@ -1,4 +1,4 @@
-from helloworld.models import Paciente
+from easyexam.models import Paciente
 from random import randint
 
 nomes = ['Gabriel', 'Ana', 'Joao', 'Luis', 'Vitoria']
