@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
+<<<<<<< Updated upstream
+=======
+  <meta charset="UTF-8">
+>>>>>>> Stashed changes
 
   <!-- Title -->
   <title>
@@ -36,4 +40,13 @@
       {% endfor %}
     </tbody>
   </table>
+  <script src="{% static 'website/js/jquery.min.js' %}"></script>
+  <script src="{% static 'website/js/bootstrap.min.js' %}"></script>
+
+  <!-- Bloco de scripts -->
+  {% block scripts %}{% endblock %}
+
+  <!-- Scripts.js -->
+  <script src="{% static 'website/js/scripts.js' %}"></script>
+
 </body>
