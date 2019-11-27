@@ -29,7 +29,7 @@ for i in range(0, 9):
         sobrenome=sobrenomes_m[randint(0,4)],
         cpf='015.458.895-5'+str(i),
         cfm='089.150.458-9'+str(i),
-        email='doctor_'+nome+'@gmail.com',
+        email='doctor_'+str(i)+'@gmail.com',
         telefone = '2492573243'+str(i),
         especializacao=especializacao_m[randint(0,3)]
     )

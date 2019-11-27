@@ -59,7 +59,5 @@ class Migration(migrations.Migration):
                 ('objetos_alunos', django.db.models.manager.Manager()),
             ],
         ),
-        migrations.DeleteModel(
-            name='Funcionario',
-        ),
+        
     ]
