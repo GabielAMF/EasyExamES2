@@ -21,7 +21,281 @@
 </head>
 
 <body>
+  <header>
+    <style>
+      .container[target=_title]{
+					color:white; 
+					background-color:#9E54FC;
+					text-shadow:3px 3px black;
+				}
+				
+				.gap-20{
+					width:100%;
+					height:20px;
+				}
+				.gap-50{
+					width:100%;
+					height:50px;
+				}
+			</style>
+    <div class="container" target="_title">
+      <p></p>
+      <div class="gap-20"></div>
+      <h5 <b>Olá, Usuário</b></h5>
+      <! -- TODO: COLOCAR O USUÁRIO AQUI -->
+      Data
+      <! -- TODO: COLOCAR A DATA E HORA AQUI -->
+      <div class="gap-50"></div>
+    </div>
 
+  </header>
+  <main>
+    <div class="v1"></div>
+    <div class="v2"></div>
+
+    <style>
+      .bLin{
+					border-bottom: 1px solid rgba(150,150,150,0.3);
+					width: 14%;
+					float:middle;
+					background-color:white;
+				}
+				.container[target=_leftMenu]{
+					color:black;
+					background-color:white;
+					padding-left: 10px;
+					padding-bottom: 30px;
+					line-height:5px;
+					align:left;
+				}
+				
+				.container[target=_atts]{
+					padding-left:15%;
+          padding-top:12px;
+					float:middle;
+					background-color:white;
+					padding-bottom:0.1px;
+					font-style: italic;
+				}
+			</style>
+    <div class="container" target="_atts">
+      <h3>Pacientes</h3>
+    </div>
+    <div class="container" target="_leftMenu">
+      <b>
+        <font size="4">Nome do Usuário</font>
+      </b> </p>
+      <! -- TODO: AQUI VEM NOME DO USUÁRIO -->
+      <p> Tipo de Usuário <p>
+          <! -- TODO: AQUI VEM TIPO DE USUÁRIO -->
+          <p> Função do Usuário </p>
+          <! -- TODO: AQUI VEM O PROPÓSITO DO USUÁRIO -->
+          <div class="bLin"></div>
+          <style>
+            .vertical-menu {
+					width: 230 px;
+					padding-top: 20px;
+					float:left;
+					background-color:white;
+				}
+				.vertical-menu a {
+					background-color: white;
+					color: black;
+					display: block;
+					padding: 12px;
+					padding-left: 10px;
+					text-decoration: none;
+					font-size: 14px;
+				}
+				.vertical-menu a:hover{
+					background-color: rgb(196,184,213);
+				}
+				
+				.vertical-menu a:active{
+					background-color: rgb(236,224,253);
+				}
+				
+				a[target=_curr]{
+					background-color: rgb(236,224,253);
+				}
+				
+			</style>
+          <div class="vertical-menu" id="menu">
+            <a class="active" href="menu.html"><img src="assets/icons/symbol_home.png" width="30" height="25"> Home</a>
+            <a class="active" target="_curr" href="pacientes.html"><img src="assets/icons/symbol_patients.png" width="30"
+                height="25"> Pacientes</a>
+            <a class="active" href="exames.html"><img src="assets/icons/symbol_exams.png" width="30" height="25"> Exames</a></li>
+            <a class="active" href="#"><img src="assets/icons/symbol_newExam.png" width="30" height="25"> Realizar
+              Exame</a>
+            <a class="active" href="#"><img src="assets/icons/symbol_doneExam.png" width="30" height="25"> Resultados</a>
+            <a class="active" href="#"><img src="assets/icons/symbol_chart.png" width="30" height="25"> Análises</a>
+            <a class="active" href="#"><img src="assets/icons/symbol_config.png" width="30" height="25"> Configurações</a>
+            <a class="active" href="#"><img src="assets/icons/symbol_exit.png" width="30" height="25"> Sair</a>
+            </ul>
+          </div>
+
+          <style>
+            .vertical-menu[target=_contents] {
+						width: 200 px;
+						padding-top: 1px;
+						float: middle;
+						padding-left: 50px;
+					}
+					.clearfix{
+						clear:both;
+					}
+					
+					.v1{
+						border-left:4px solid rgba(150,150,150,0.3);
+						height:100%;
+						position:absolute;
+						left: 20%;
+						background-color:white;
+					}
+					.v2{
+						border-left:11px solid rgba(50,50,50,0.3);
+						height:100%;
+						position:absolute;
+						left: 20%;
+						background-color:white;
+					}
+					
+				</style>
+          <div class="vertical-menu" target="_contents" id="contents">
+            <div class="row">
+              <div class="col-lg-10">
+                <div class="alert alert-dark" role="alert" style="width: 500px">
+                  Pesquisar
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <button type="button" class="btn btn-success">Novo</button>
+              </div>
+            </div>
+            <br><br><br><br>
+            <p></p>
+            <div class="row" style="padding-left: 15px">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item .text-secondary">Nome</li>
+                <li class="list-group-item">Joao</li>
+                <li class="list-group-item">Gabriel</li>
+                <li class="list-group-item">Ana</li>
+                <li class="list-group-item">Luis</li>
+                <li class="list-group-item">Vitoria</li>
+                <li class="list-group-item">Ana</li>
+                <li class="list-group-item">Joao</li>
+                <li class="list-group-item">Gabriel</li>
+                <li class="list-group-item">Luis</li>
+                <li class="list-group-item">Vitoria</li>
+                <li class="list-group-item">Ana</li>
+                <li class="list-group-item">Joao</li>
+              </ul>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item .text-secondary">Sobrenome</li>
+                <li class="list-group-item">Cerrado</li>
+                <li class="list-group-item">Silva</li>
+                <li class="list-group-item">Moreira</li>
+                <li class="list-group-item">Silva</li>
+                <li class="list-group-item">Silva</li>
+                <li class="list-group-item">Amelia</li>
+                <li class="list-group-item">Junior</li>
+                <li class="list-group-item">Silva</li>
+                <li class="list-group-item">Moreira</li>
+                <li class="list-group-item">Amelia</li>
+                <li class="list-group-item">Cerrado</li>
+                <li class="list-group-item">Silva</li>
+              </ul>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item .text-secondary">CPF</li>
+                <li class="list-group-item">015.458.895-50</li>
+                <li class="list-group-item">015.458.895-51</li>
+                <li class="list-group-item">015.458.895-52</li>
+                <li class="list-group-item">015.458.895-53</li>
+                <li class="list-group-item">015.458.895-54</li>
+                <li class="list-group-item">015.458.895-55</li>
+                <li class="list-group-item">015.458.895-56</li>
+                <li class="list-group-item">015.458.895-57</li>
+                <li class="list-group-item">015.458.895-58</li>
+                <li class="list-group-item">015.458.895-59</li>
+                <li class="list-group-item">015.458.895-60</li>
+                <li class="list-group-item">015.458.895-61</li>
+              </ul>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item .text-secondary">Idade</li>
+                <li class="list-group-item">21</li>
+                <li class="list-group-item">47</li>
+                <li class="list-group-item">13</li>
+                <li class="list-group-item">68</li>
+                <li class="list-group-item">71</li>
+                <li class="list-group-item">25</li>
+                <li class="list-group-item">32</li>
+                <li class="list-group-item">38</li>
+                <li class="list-group-item">66</li>
+                <li class="list-group-item">83</li>
+                <li class="list-group-item">91</li>
+                <li class="list-group-item">24</li>
+              </ul>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item .text-secondary">Peso</li>
+                <li class="list-group-item">71 kg</li>
+                <li class="list-group-item">47 kg</li>
+                <li class="list-group-item">31 kg</li>
+                <li class="list-group-item">68 kg</li>
+                <li class="list-group-item">71 kg</li>
+                <li class="list-group-item">52 kg</li>
+                <li class="list-group-item">62 kg</li>
+                <li class="list-group-item">83 kg</li>
+                <li class="list-group-item">66 kg</li>
+                <li class="list-group-item">83 kg</li>
+                <li class="list-group-item">91 kg</li>
+                <li class="list-group-item">84 kg</li>
+              </ul>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item .text-secondary">Altura</li>
+                <li class="list-group-item">1,71 m</li>
+                <li class="list-group-item">1,47 m</li>
+                <li class="list-group-item">1,61 m</li>
+                <li class="list-group-item">1,68 m</li>
+                <li class="list-group-item">1,71 m</li>
+                <li class="list-group-item">1,52 m</li>
+                <li class="list-group-item">2,02 m</li>
+                <li class="list-group-item">1,83 m</li>
+                <li class="list-group-item">1,66 m</li>
+                <li class="list-group-item">1,83 m</li>
+                <li class="list-group-item">1,91 m</li>
+                <li class="list-group-item">1,84 m</li>
+              </ul>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item .text-secondary">Endereco</li>
+                <li class="list-group-item">Rua Ana, n 71, Bairro: Icarai...</li>
+                <li class="list-group-item">Rua Junior, n 47, Bairro: Bar...</li>
+                <li class="list-group-item">Rua Golcalves, n 13, Bairro: ...</li>
+                <li class="list-group-item">Rua Amelia, n 256, Bairro: Sa...</li>
+                <li class="list-group-item">Rua Joao B., n 16, Bairro: Mo...</li> 
+                <li class="list-group-item">Rua Amaral, n 31, Bairro: Cen...</li>
+                <li class="list-group-item">Rua Vinte, n 220, Bairro: Apa...</li>
+                <li class="list-group-item">Rua Monte C., n 14, Bairro: C...</li>
+                <li class="list-group-item">Rua Ana, n 253, Bairro: Fatim...</li>
+                <li class="list-group-item">Rua Cem, n 513, Bairro: Icara...</li>
+                <li class="list-group-item">Rua Joao B., n 18, Bairro: Mo...</li>
+                <li class="list-group-item">Rua Amelia, n 154, Bairro: Sa...</li>
+              </ul>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+    </div>
+  </main>
+
+  <footer>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <!--
   <table>
     <tbody>
       {% for paciente in pacientes %}
@@ -39,12 +313,12 @@
     </tbody>
   </table>
   <script src="{% static 'website/js/jquery.min.js' %}"></script>
-  <script src="{% static 'website/js/bootstrap.min.js' %}"></script>
+  <script src="{% static 'website/js/bootstrap.min.js' %}"></script>-->
 
-  <!-- Bloco de scripts -->
-  {% block scripts %}{% endblock %}
+  <!-- Bloco de scripts 
+  {% block scripts %}{% endblock %}-->
 
-  <!-- Scripts.js -->
-  <script src="{% static 'website/js/scripts.js' %}"></script>
+  <!-- Scripts.js 
+  <script src="{% static 'website/js/scripts.js' %}"></script>-->
 
 </body>
